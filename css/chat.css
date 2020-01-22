@@ -1,5 +1,16 @@
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .chats-body {
   padding: 10px 0px;
+  padding-top: 100px;
 }
 
 .chats-body .header,
@@ -7,9 +18,9 @@
   padding: 0px 20px;
 }
 
-.chat-screen {
+.chats-body {
   background-image: url("../img/chatbg.png");
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 .chat__write {
