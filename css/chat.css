@@ -107,6 +107,7 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   padding: 10px 20px;
   border-radius: 20px;
+  display: block;
 }
 
 .incoming-message .message__author {
